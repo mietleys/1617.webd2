@@ -1,0 +1,15 @@
+form select{
+    width: 100%;
+    margin-top:5px;
+}
+form input{
+    margin-top:5px;
+}
+
+form button{
+    margin-top: 5px;
+}
+
+form input#opmerkingen{
+    height:100px;
+}
