@@ -119,6 +119,7 @@ footer {
 
 .text_footer {
     color: #FBFED9;
-    font-family: sans-serif;
+    font-family: josefin sans;
+    font-style: bold;
     margin-left: 20px;
 }
