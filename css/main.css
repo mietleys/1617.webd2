@@ -1,68 +1,68 @@
 * {
-  box-sizing: border-box;
+    box-sizing: border-box;
 }
 
-html, body {
-  margin: 0;
-  padding: 0;
+html,
+body {
+    margin: 0;
+    padding: 0;
 }
 
 body {
-   background-color:#FBFED9;
+    background-color: #FBFED9;
 }
 
 .intro {
-  width: 90vw;
-
-  padding: 1rem;
-  margin-top: 1rem;
-
-  background: rgba(41,182,246 ,1);
-  color: rgba(1,87,155 ,1);
+    width: 90vw;
+    padding: 1rem;
+    margin-top: 1rem;
+    background: rgba(41, 182, 246, 1);
+    color: rgba(1, 87, 155, 1);
 }
-
 
 .hero {
-  background: #DDD url('https://eugene-kaspersky-wpengine.netdna-ssl.com/files/2014/11/ireland-cliffs-moher-2.jpg') no-repeat;
-  background-size: cover;
-  background-position: center center;
-  width: 100%;
-  height:  500px;
-  position: relative;
+    background: #DDD url('https://eugene-kaspersky-wpengine.netdna-ssl.com/files/2014/11/ireland-cliffs-moher-2.jpg') no-repeat;
+    background-size: cover;
+    background-position: center center;
+    width: 100%;
+    height: 500px;
+    position: relative;
 }
 
-.hero__text { 
-  font-family: Lato, sans-serif;
-  font-weight: 400;
-  font-size: 1.2rem;
-  position:  absolute;
-  color: #FBFED9;
-  top: 50%;
-  left: 50%;
-  text-align: center;
-  transform:  translate(-50%,-50%);
+.hero__text {
+    font-family: Lato, sans-serif;
+    font-weight: 400;
+    font-size: 1.2rem;
+    position: absolute;
+    color: #FBFED9;
+    top: 50%;
+    left: 50%;
+    text-align: center;
+    transform: translate(-50%, -50%);
 }
 
-.hero__title { 
-  margin: 0;
-  font-size: 3rem;
-  font-weight: 300;
+.hero__title {
+    margin: 0;
+    font-size: 3rem;
+    font-weight: 300;
+    font-family: sans-serif;
 }
 
 .hero__button {
-  display: inline-block;
-  padding: 12px 20px;
-  background:  #80ABCD;
-  text-decoration: none;
-  text-transform: uppercase;
-  color: #FBFED9;
-  margin-top: 20px;
+    display: inline-block;
+    padding: 12px 20px;
+    background: #80ABCD;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #FBFED9;
+    margin-top: 20px;
 }
 
 .hero__button:hover {
-  color: #FBFED9;
-  background: #1C7F8E;
+    color: #FBFED9;
+    background: #1C7F8E;
 }
+
 ul {
     list-style-type: none;
     margin: 0;
@@ -72,6 +72,7 @@ ul {
 li {
     display: inline;
 }
+
 ul {
     list-style-type: none;
     margin: 0;
@@ -95,10 +96,29 @@ li a {
 li a:hover {
     background-color: #1C7F8E;
 }
+
 .active {
     background-color: #1C7F8E;
 }
 
-p{
+p {
     font-family: 'Quicksand', serif;
+}
+
+.social {
+    height: 50px;
+}
+
+.text {
+    margin-left: 20px;
+}
+
+footer {
+    background-color: #006881;
+}
+
+.text_footer {
+    color: #FBFED9;
+    font-family: sans-serif;
+    margin-left: 20px;
 }
