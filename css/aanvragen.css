@@ -1,3 +1,7 @@
+form {
+    padding-bottom: 50px;
+}
+
 form select {
     width: 100%;
     margin-top: 5px;
@@ -44,8 +48,8 @@ form input#opmerkingen {
 
 #frmRegistration fieldset {
     margin: 0 0 15px;
-    background: #222;
-    border: 1px solid #333;
+    background: #80ABCD;
+    border: 1px solid #80ABCD;
 }
 
 #frmRegistration legend {
@@ -60,7 +64,7 @@ form input#opmerkingen {
 
 .frm-field label {
     display: block;
-    color: #ccc;
+    color: #FBFED9;
     margin: 0 0 5px;
 }
 
@@ -68,14 +72,14 @@ form input#opmerkingen {
     display: block;
     padding: 5px 35px 5px 10px;
     width: 100%;
-    background: none repeat scroll 0% 0% rgba(0, 0, 0, 0.2);
-    box-shadow: 4px 6px 10px -4px rgba(0, 0, 0, 0.3) inset, 0px 1px 1px -1px rgba(255, 255, 255, 0.3);
+    background: none repeat scroll 0% 0% #FBFED9;
+    box-shadow: 4px 6px 10px -4px #FBFED9(0, 0, 0, 0.3) inset, 0px 1px 1px -1px rgba(255, 255, 255, 0.3);
     outline: medium none;
-    border: 1px solid #000;
+    border: 1px solid #FBFED9;
     border-radius: 5px;
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
-    color: #6E6E6E;
+    color: #80ABCD;
     opacity: 0.62;
 }
 
@@ -92,7 +96,7 @@ form input#opmerkingen {
     line-height: 32px;
     text-align: center;
     color: #bbb;
-    border-left: 1px solid #000;
+    border-left: 1px solid #006881;
 }
 
 #frmRegistration button {
@@ -100,12 +104,12 @@ form input#opmerkingen {
     margin: 0;
     padding: 15px 25px;
     outline: medium none;
-    background: #28D2DE;
-    box-shadow: 0px 8px 6px -6px rgba(0, 0, 0, 0.7);
+    background: #1C7F8E;
+    box-shadow: 0px 8px 6px -6px #006881;
     border: none;
-    border-bottom: 4px solid #1a878f;
+    border-bottom: 4px solid #1C7F8E;
     border-radius: 5px;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'josefin sans', sans-serif;
     font-size: 16px;
     color: #FFF;
     text-transform: uppercase;
@@ -123,4 +127,8 @@ form input#opmerkingen {
 #frmRegistration button:active {
     opacity: 0.26;
     transition: opacity 320ms ease-in 0s;
+}
+
+#txtOpmerking {
+    height: 300px;
 }
